@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: blue;">Blue Shop</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/bieutuong.jpg" />  
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style1.css">
+    <link rel="stylesheet" href="./css/style2.css">
+    <link rel="stylesheet" href="./icon/themify-icons/themify-icons.css">
+    <script src="./js/query.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+            <a href="index.html" id="logo"><img id="img" src="./img/Untitled-1.jpg" alt=""></a>
+                <a href="index1.html" class="cart">
+                    <i class="ti-shopping-cart"></i>
+                    <span>1</span>
+                </a>
+            <div class="btn-search">
+                <input type="text" placeholder="Search here">
+                <a><i class="ti-search"></i></a>
+            </div>
+
+        </div>
+
+        <div id="content-sanpham">
+            <div class="content-sub-sanpham">
+                <div class="breadcrumb">
+                    <a href="index.html">Trang Chủ</a>
+                    <span> / Không yêu trả dép bố về Tshirt POD</span>
+                </div>
+                <div class="content-sub-left">
+                    <a href="">
+                        <img src="img/img-item/12796c1e268eecb700993621931d87f0.png" alt="Không yêu trả dép bố về Tshirt POD" class="img-100">
+                    </a>
+                </div>
+                <div class="content-sub-right">
+                    <h2>Không yêu trả dép bố về Tshirt POD</h2>
+                    <p style="margin: 20px 0;">Kiểu áo: Áo Tshirt Unisex</p>
+                    <div class="dropdown-divider">
+                    </div>
+                    <p class="gia-item-bottom" id="tongtien">279,000 đ</p>
+                    <div class="dropdown-divider" style="margin-top: 50px;">
+                    </div>
+                    <div class="size-sanpham">
+                        <p style="line-height: 32px;">Kích cỡ</p>
+                        <ul class="product-size">
+                            <li><a class="size-X" onclick="doimauXS()" id="xs">XS</a></li>
+                            <li><a class="size-X" onclick="doimauS()" id="s">S</a></li>
+                            <li><a class="size-X" onclick="doimauM()" id="m">M</a></li>
+                            <li><a class="size-X" onclick="doimauL()" id="l">L</a></li>
+                            <li><a class="size-X" onclick="doimauXL()" id="xl">XL</a></li>
+                            <li><a class="size-X" onclick="doimauXXL()" id="xxl">XXL</a></li>
+                            <li><a class="size-X" onclick="doimau3XL()" id="3xl">3XL</a></li>
+                            <li><a class="size-X" onclick="doimau4XL()" id="4xl">4XL</a></li>
+                            <li><a class="size-X" onclick="doimau5XL()" id="5xl">5XL</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown-divider">
+                    </div>
+                    <div class="sl-sanpham">
+                        <p style="width: 100px;">Số lượng:</p>
+                        <div class="mun-soluong">
+                            <button class="qtyminus" onclick="reduction()">-</button>
+                            <input type="text" value="1" id="sl" class="form-control" style="width: 64px;text-align: center;" min="1" pattern="[0-9]*">
+                            <button class="qtyminus" onclick="increase()">+</button>
+                        </div>
+                    </div>
+                    <div class="dropdown-divider" style="margin-top: 60px;">
+                    </div>
+                    <div style="margin-top: 1.5rem!important;">
+                        <button id="comfirmcart" class="btn-green-outline">Thêm vào giỏ</button>
+                        <button id="buynow" class="btn-green">Mua ngay</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row-slider">
+            <div class="dropdown-divider">
+            </div>
+            <div class="row-slider-left">
+                <h3 style="margin: 20px 0;">GIỚI THIỆU TỦ ĐỒ BLUE</h3>
+                <p style="color: #6c757d!important;">Bluesese – anh được biết đến rộng rãi như là một coder nghiệp dư tại Việt Nam. Nhưng chưa dừng lại ở đó, với tuổi trẻ còn nhiều nhiệt huyết và khao khát phát triển bản thân và xã hội, Bluesese dấn thân vào con đường khởi nghiệp. Hành trình này của anh bắt đầu với những thứ gần gũi với cuộc sống hàng ngày như bán code hay bán code, bán code, bán code… Tiếp nối đó anh hướng tới mong muốn không chỉ mình có thể kinh doanh, mà xây dựng nên một nền tảng mở rộng thêm cơ hội cho nhiều người khác. Gặp gỡ team Coder và tìm thấy tiếng nói chung, những lí tưởng mới cùng nhiều cơ hội mới được hoàn thiện từng ngày, và BLUESHOP ra đời - nền tảng hỗ trợ những nhà sáng tạo nội dung số thực hiện hoá việc kinh doanh merchandise với một thương hiệu cho riêng mình!</p>
+            </div>
+            <div class="row-slider-right">
+                <img src="./img/bieutuong.jpg" class="img-003" alt="">
+            </div>
+        </div>
+        <div id="slider">
+            <div class="content-sub-giohang">
+                <div class="breadcrumb">
+                    <h3>Áo cùng tác giả</h3>
+                </div>
+                <div class="list-item">
+                    <div class="product-item">
+                        <a href="#" class="hover-img">
+                            <img class="img-100" src="./img/img-item/0a33f5296760147cc211e94c932b9299.png" alt="">
+                        </a>
+                        <h3>
+                            <a href="#" class="">F*CKIN WOW SH*T HOODIE</a>
+                        </h3>
+                        <div class="clearfix">
+                            <div class="float-left">
+                                <p class="gia">399,000 đ</p>
+                            </div>
+                            <div class="chitiet">
+                                <a href="index2.html">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <a href="#" class="hover-img">
+                            <img class="img-100" src="./img/img-item/1b07378463d5a8faf8a7b87577b7df00.png" alt="">
+                        </a>
+                        <h3>
+                            <a href="#" class="">KHÔNG THỂ TIN ĐƯỢC T-SHIRT</a>
+                        </h3>
+                        <div class="clearfix">
+                            <div class="float-left">
+                                <p class="gia">249,000 đ</p>
+                            </div>
+                            <div class="chitiet">
+                                <a href="index2.html">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <a href="#" class="hover-img">
+                            <img class="img-100" src="./img/img-item/29afb5a2c2ec2ee37fd27780e994e265.png" alt="">
+                        </a>
+                        <h3>
+                            <a href="#" class="">CAO THỦ T-SHIRT</a>
+                        </h3>
+                        <div class="clearfix">
+                            <div class="float-left">
+                                <p class="gia">229,000 đ</p>
+                            </div>
+                            <div class="chitiet">
+                                <a href="index2.html">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-item">
+                        <a href="#" class="hover-img">
+                            <img class="img-100" src="./img/img-item/9a96772376012706d66df2182b9ceb8e.png" alt="">
+                        </a>
+                        <h3>
+                            <a href="#" class="">F*CKIN WOW SH*T T-SHIRT</a>
+                        </h3>
+                        <div class="clearfix">
+                            <div class="float-left">
+                                <p class="gia">249,000 đ</p>
+                            </div>
+                            <div class="chitiet">
+                                <a href="index2.html">Chi tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="footer-row">
+                <div class="footer-text">
+                    <h3>VỀ CHÚNG TÔI</h3>
+                        <p>BlueShop là nền tảng Thương mại điện tử hỗ trợ những nhà sáng tạo và phát triển nội dung kết nối với cộng đồng người hâm mộ thông qua việc bán merchandise và phát triển việc kinh doanh cá nhân một cách chuyên nghiệp.</p>
+                    <p class="email">
+                        <i class="ti-email"></i>
+                        <strong>Email:</strong>
+                        <a href="#">lienhe@blueshop.vn</a>
+                    </p>
+                </div>
+                <div class="footer-text">
+                    <h3>BÁN HÀNG TRÊN GOODIES</h3>
+                    <p>
+                        <a href="#">Features</a>
+                    </p>
+                    <p>
+                        <a href="#">FAQ</a>
+                    </p>
+                    <p>
+                        <a href="#">Giới thiệu</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

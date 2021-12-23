@@ -1,0 +1,116 @@
+#content-sanpham{
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+}
+.content-sub-sanpham{
+    height: 100%;
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fff;
+}
+.content-sub-left{
+    width: 40%;
+    float: left;
+}
+.content-sub-right{
+    width: 60%;
+    height: 100%;
+    float: right;
+}
+#tongtien{
+    float: left;
+    
+}
+.size-sanpham{
+    display: flex;
+    margin: 20px 0;
+}
+.product-size{
+    list-style: none;
+    padding: 0;
+    float: right;
+    display: flex;
+    margin-left: 40px;
+}
+.product-size li a{
+    margin: 0 10px;
+    border-radius: 4px;
+    border: 1px solid #d8dde6;
+    display: inline-block;
+    width: auto !important;
+    min-height: 30px;
+    min-width: 30px;
+    height: auto !important;
+    text-align: center;
+    line-height: 32px;
+}
+.mun-soluong{
+    float: right;
+    display: flex;
+}
+button.qtyminus {
+    width: 35px;
+    height: 39px;
+    padding: 5px 5px 5px 5px;
+    border: none;
+    display: inline-block;
+    border: 1px solid #eee;
+    border-radius: 0;
+    background: #eee;
+    font-size: 24px;
+    line-height: 1em;
+    margin-right: -4px;
+    text-align: center;
+    margin: 0 2px;
+}
+.btn-green-outline {
+    background: transparent;
+    border-radius: 4px;
+    border: 1px solid #68B636;
+    padding: 10px;
+    color: #68B636;
+    width: 80%;
+    margin: 5px 50px;
+    font-size: 20px;
+}
+a.size-X:hover{
+    background-color: #4183d7;
+    color: #bfbfbf;
+}
+.btn-green {
+    padding: 0 -20px;
+    background: #68B636;
+    color: #fff;
+    padding: 12px 0;
+    border: none;
+    width: 100%;
+    width: 80%;
+    margin: 5px 50px;
+    font-size: 20px;
+}
+.row-slider{
+    margin-top: 20px;
+    height: 300px;
+    width: 80%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row-slider-left{
+    width: 50%;
+    float: left;
+}
+.row-slider-right{
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+.img-003{
+    margin: 0 80px;
+    width: 50%;
+}
